@@ -1,0 +1,77 @@
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css";
+
+@import "nativewind/theme";
+
+@theme {
+  /* ─── Brand Colors ─────────────────────────────────────────────── */
+  --color-lingua-purple: #6C4DF5;
+  --color-lingua-lilac: #A78BFA;
+  --color-lingua-deep: #2E1A47;
+
+  /* ─── Semantic Colors ───────────────────────────────────────────── */
+  --color-success: #22C55E;
+  --color-info: #3B82F6;
+  --color-warning: #FACC15;
+  --color-error: #EF4444;
+
+  /* ─── Font Families ─────────────────────────────────────────────── */
+  --font-nunito: 'Nunito_400Regular';
+  --font-nunito-semibold: 'Nunito_600SemiBold';
+  --font-nunito-bold: 'Nunito_700Bold';
+}
+
+/* ─── Typography Utilities ────────────────────────────────────────── */
+/* Named after the scale in the design system. Use these on <Text>    */
+/* components to apply the full type style (family + size + height).  */
+
+@layer utilities {
+  .text-display-lg {
+    font-family: 'Nunito_700Bold';
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .text-display-md {
+    font-family: 'Nunito_700Bold';
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .text-heading-1 {
+    font-family: 'Nunito_700Bold';
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .text-heading-2 {
+    font-family: 'Nunito_700Bold';
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .text-body-lg {
+    font-family: 'Nunito_400Regular';
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .text-body {
+    font-family: 'Nunito_400Regular';
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .text-body-sm {
+    font-family: 'Nunito_400Regular';
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .text-caption {
+    font-family: 'Nunito_400Regular';
+    font-size: 11px;
+    line-height: 17px;
+  }
+}

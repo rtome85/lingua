@@ -205,7 +205,7 @@ Refer this for more info: https://www.nativewind.dev/v5/llms-full.txt
 
 ## Style Exception Rules
 
-Use `StyleSheet` or inline styles for these React Native components/scenarios instead of NativeWind/tailwindcss classes:
+Use `StyleSheet` or inline styles ONLY for these React Native components/scenarios instead of NativeWind/tailwindcss classes:
 
 | Component / Scenario           | Why                                                                                      | Use Instead                           |
 | ------------------------------ | ---------------------------------------------------------------------------------------- | ------------------------------------- |
